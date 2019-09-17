@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录/注册</title>
+    <link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="loginframe.css">
+    <link rel="shortcut icon" type="image/x-icon" href="pic/favicon.ico">
+    <script src="loginframe.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!--短信登录/注册-->
+        <div class="account-body login-start">
+        <!--切换二维码-->
+            <div class="qr-code">
+                <a href=""></a>
+            </div>
+            <div class="account-body-tabs">
+                <ul class="tab-start">
+                    <li class="tab-start on">短信登录/注册</li>
+                    <li class="tab-password">密码登录</li>
+                </ul>
+                <p>请仔细阅读 <a href="">豆瓣使用协议、隐私政策</a></p>
+            </div>
+            <div class="account-content">
+                <div class="account-form-error"></div>
+                <div class="account-form-raw">
+                    <div class="account-form-field account-form-field-phone">
+                        <input type="text" maxlength="13" placeholder="手机号" class="account-form-input">
+                        <div class="account-form-area-code">
+                            <div class="account-form-area-code-label">+86</div>
+                        </div>
+                        <div class="account-form-area-code-choose">
+                            <a href="#" class="account-form-area-code-choose-cls">X</a>
+                            <div class="account-form-area-code-choose-title">
+                                <h3>选择国际区号</h3>
+                            </div>
+                            <div class="account-form-area-code-choose-cls-content">
+                                <ul>
+                                    <li class="is-active">中国大陆</li>
+                                    <li>香港</li>
+                                    <li>台湾</li>
+                                    <li>澳门</li>
+                                    <li>日本</li>
+                                    <li>韩国</li>
+                                    <li>新加坡</li>
+                                    <li>马来西亚</li>
+                                    <li>德玛西亚</li>
+                                    <li>潘达利亚</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="account-form-raw">
+                    <div class="account-form-field account-form-field-v_code">
+                        <input type="text" maxlength="6" class="account-form-input" placeholder="验证码">
+                        <div class="account-form-field-code">
+                            <a href="#">获取验证码</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="account-form-raw">
+                    <button>登录豆瓣</button>
+                </div>
+                <div class="account-form-ft">
+                    <input type="checkbox">
+                    <span>下次自动登录</span>
+                    <a href="">收不到验证码</a>
+                </div>
+            </div>
+            <div class="account-form-3rd">
+                <div class="account-form-3rd-hd">第三方登录</div>
+                <div class="account-form-3rd-bd">
+                    <a href="#" title="用微信登录" class="account-form-3rd-bd-wx"></a>
+                    <a href="#" title="用微博登录" class="account-form-3rd-bd-wb"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
